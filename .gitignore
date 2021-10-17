@@ -127,3 +127,4 @@ $RECYCLE.BIN/
 *.lnk
 
 .vscode/
+/src/org/launchcode/studio7/considerations.txt
