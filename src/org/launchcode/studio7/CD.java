@@ -13,7 +13,6 @@ public class CD extends BaseDisc implements OpticalDisc{
         return format;
     }
 
-
     public int getMinRpm() {
         return minRpm;
     }
@@ -32,11 +31,11 @@ public class CD extends BaseDisc implements OpticalDisc{
 
     @Override
     public String toString() {
-        return  simpleClassName() + "\n" +
-                "Title: " + getTitle() + '\n' +
-                "Format: " + getFormat() + '\n' +
-                "Minimum Disc Speed: " + getMinRpm() + "rpm\n" +
-                "Maximum Disc Speed: " + getMaxRpm() + "rpm\n";
+        return  "Disk type: " + simpleClassName() +
+                "\nTitle: " + getTitle() +
+                "\nFormat: " + getFormat() +
+                "\nMinimum disc speed: " + getMinRpm() + "rpm" +
+                "\nMaximum disc speed: " + getMaxRpm() + "rpm\n";
     }
 
     @Override
