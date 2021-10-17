@@ -34,8 +34,8 @@ public class DVD extends BaseDisc implements OpticalDisc{
         return  "Disk type: " + simpleClassName() +
                 "\nTitle: " + getTitle() +
                 "\nFormat: " + getFormat() +
-                "\nMinimum disc speed: " + getMinRpm() + "rpm" +
-                "\nMaximum disc speed: " + getMaxRpm() + "rpm\n";
+                "\nMinimum disc speed: " + getMinRpm() + " rpm" +
+                "\nMaximum disc speed: " + getMaxRpm() + " rpm\n";
     }
 
     @Override
